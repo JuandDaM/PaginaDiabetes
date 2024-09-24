@@ -1,0 +1,96 @@
+
+header{
+	background: rgba(255,248,220,0.5);
+	color:black;
+	font-family:"Times New Roman";
+    font-size: 50px;
+    text-align: center;
+    width: 50%
+    margin 5px auto;
+    border-radius: 5px;
+
+
+	}
+ nav, section, footer, figure{
+  
+  color:black;
+  font-family:"Times New Roman";
+  font-size: 20px;
+  text-align: center;
+  width: 50%
+  margin 5px auto;
+  border-radius: 5px;
+
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+nav{
+	padding: 0px;
+	background:rgba(255,248,220,0.5);
+
+}
+li{
+	background:rgb(255, 255, 255);
+	width: 150px;
+	margin: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	height: 28px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+a{
+	color: #131212;
+	text-decoration: none;
+}
+
+a:hover{
+	background:wheat;
+	width: 150px;
+	display: inline-block;
+	height: 30px;
+	border-radius: 5px;
+}
+section{
+	padding: 5px;
+	box-sizing: border-box;
+	}
+article{
+	background: rgba(255,248,220,0.5);
+	width: 30%;
+	margin: 5px;
+	display: inline-block;
+	text-align: justify;
+	padding: 5px;
+}
+
+figure{
+	display: inline-block;
+	width:350px;
+	margin: 5px;
+}
+
+img{
+	background:rosybrown;
+	width: 87%;
+	margin: 3px;
+	padding: 5px;
+	border-radius: 5px;
+	height: 200px;
+}
+figcaption{
+	background:burlywood;
+	width: 87%;
+	margin: 3px auto;
+	padding: 5px;
+	border-radius: 5px;
+}
+body{
+	background: url(../IMAGENES/fondo3.png);
+}
+
